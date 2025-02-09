@@ -10,7 +10,7 @@ public enum TipoUsuario {
         this.id_tipo_usuario = id_tipo_usuario;
     }
     
-    private int getId_tipo_usuario(){
+    public int getId_tipo_usuario(){
         return this.id_tipo_usuario;
     }
 }
