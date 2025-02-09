@@ -164,7 +164,7 @@
                           <Component id="btnagregarempleado" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtmodificarempleado" min="-2" pref="36" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Component id="jLabel6" max="32767" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -427,7 +427,11 @@
                                           <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="txtsalariobruto" min="-2" pref="153" max="-2" attributes="0"/>
-                                              <Component id="txtsalarioneto" min="-2" pref="153" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="txtsalarioneto" min="-2" pref="153" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
                                               <Component id="txtfechaingreso" min="-2" pref="153" max="-2" attributes="0"/>
                                               <Component id="txtfecharetiro" min="-2" pref="153" max="-2" attributes="0"/>
                                           </Group>
@@ -455,7 +459,10 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="txtsalarioneto" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtsalarioneto" min="-2" max="-2" attributes="0"/>
+                              <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                          </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -532,6 +539,8 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JTextField" name="txtsalarioneto">
+                </Component>
+                <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
                 </Component>
               </SubComponents>
             </Container>
