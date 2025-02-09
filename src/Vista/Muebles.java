@@ -439,7 +439,7 @@ public class Muebles extends javax.swing.JPanel {
         mueblespanel.addTab("Historal", jPanel1);
 
         add(mueblespanel);
-        mueblespanel.setBounds(20, 10, 650, 440);
+        mueblespanel.setBounds(30, 10, 654, 440);
     }// </editor-fold>//GEN-END:initComponents
 
 

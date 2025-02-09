@@ -4,7 +4,12 @@
  */
 package Vista;
 
+import com.toedter.calendar.JDateChooser;
 import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
@@ -24,6 +29,86 @@ public class Empleados extends javax.swing.JPanel {
 
     public JButton getBtneliminarempleado() {
         return btneliminarempleado;
+    }
+
+    public JLabel getjLabel1() {
+        return jLabel1;
+    }
+
+    public JLabel getjLabel10() {
+        return jLabel10;
+    }
+
+    public JLabel getjLabel11() {
+        return jLabel11;
+    }
+
+    public JLabel getjLabel12() {
+        return jLabel12;
+    }
+
+    public JLabel getjLabel13() {
+        return jLabel13;
+    }
+
+    public JLabel getjLabel14() {
+        return jLabel14;
+    }
+
+    public JLabel getjLabel2() {
+        return jLabel2;
+    }
+
+    public JLabel getjLabel3() {
+        return jLabel3;
+    }
+
+    public JLabel getjLabel4() {
+        return jLabel4;
+    }
+
+    public JLabel getjLabel5() {
+        return jLabel5;
+    }
+
+    public JLabel getjLabel6() {
+        return jLabel6;
+    }
+
+    public JLabel getjLabel7() {
+        return jLabel7;
+    }
+
+    public JLabel getjLabel8() {
+        return jLabel8;
+    }
+
+    public JLabel getjLabel9() {
+        return jLabel9;
+    }
+
+    public JPanel getjPanel1() {
+        return jPanel1;
+    }
+
+    public JPanel getjPanel2() {
+        return jPanel2;
+    }
+
+    public JPanel getjPanel3() {
+        return jPanel3;
+    }
+
+    public JScrollPane getjScrollPane2() {
+        return jScrollPane2;
+    }
+
+    public JTabbedPane getMueblespanel() {
+        return mueblespanel;
+    }
+
+    public JPanel getPanelvendermuebles() {
+        return panelvendermuebles;
     }
 
     public JTable getTablaempleados() {
@@ -46,11 +131,11 @@ public class Empleados extends javax.swing.JPanel {
         return txtcorreo;
     }
 
-    public JTextField getTxtfechaingreso() {
+    public JDateChooser getTxtfechaingreso() {
         return txtfechaingreso;
     }
 
-    public JTextField getTxtfecharetiro() {
+    public JDateChooser getTxtfecharetiro() {
         return txtfecharetiro;
     }
 
@@ -78,6 +163,151 @@ public class Empleados extends javax.swing.JPanel {
         return txttipousuario;
     }
 
+    public void setBtnagregarempleado(JButton btnagregarempleado) {
+        this.btnagregarempleado = btnagregarempleado;
+    }
+
+    public void setBtnconsultarempleado(JButton btnconsultarempleado) {
+        this.btnconsultarempleado = btnconsultarempleado;
+    }
+
+    public void setBtneliminarempleado(JButton btneliminarempleado) {
+        this.btneliminarempleado = btneliminarempleado;
+    }
+
+    public void setjLabel1(JLabel jLabel1) {
+        this.jLabel1 = jLabel1;
+    }
+
+    public void setjLabel10(JLabel jLabel10) {
+        this.jLabel10 = jLabel10;
+    }
+
+    public void setjLabel11(JLabel jLabel11) {
+        this.jLabel11 = jLabel11;
+    }
+
+    public void setjLabel12(JLabel jLabel12) {
+        this.jLabel12 = jLabel12;
+    }
+
+    public void setjLabel13(JLabel jLabel13) {
+        this.jLabel13 = jLabel13;
+    }
+
+    public void setjLabel14(JLabel jLabel14) {
+        this.jLabel14 = jLabel14;
+    }
+
+    public void setjLabel2(JLabel jLabel2) {
+        this.jLabel2 = jLabel2;
+    }
+
+    public void setjLabel3(JLabel jLabel3) {
+        this.jLabel3 = jLabel3;
+    }
+
+    public void setjLabel4(JLabel jLabel4) {
+        this.jLabel4 = jLabel4;
+    }
+
+    public void setjLabel5(JLabel jLabel5) {
+        this.jLabel5 = jLabel5;
+    }
+
+    public void setjLabel6(JLabel jLabel6) {
+        this.jLabel6 = jLabel6;
+    }
+
+    public void setjLabel7(JLabel jLabel7) {
+        this.jLabel7 = jLabel7;
+    }
+
+    public void setjLabel8(JLabel jLabel8) {
+        this.jLabel8 = jLabel8;
+    }
+
+    public void setjLabel9(JLabel jLabel9) {
+        this.jLabel9 = jLabel9;
+    }
+
+    public void setjPanel1(JPanel jPanel1) {
+        this.jPanel1 = jPanel1;
+    }
+
+    public void setjPanel2(JPanel jPanel2) {
+        this.jPanel2 = jPanel2;
+    }
+
+    public void setjPanel3(JPanel jPanel3) {
+        this.jPanel3 = jPanel3;
+    }
+
+    public void setjScrollPane2(JScrollPane jScrollPane2) {
+        this.jScrollPane2 = jScrollPane2;
+    }
+
+    public void setMueblespanel(JTabbedPane mueblespanel) {
+        this.mueblespanel = mueblespanel;
+    }
+
+    public void setPanelvendermuebles(JPanel panelvendermuebles) {
+        this.panelvendermuebles = panelvendermuebles;
+    }
+
+    public void setTablaempleados(JTable tablaempleados) {
+        this.tablaempleados = tablaempleados;
+    }
+
+    public void setTxtapellido(JTextField txtapellido) {
+        this.txtapellido = txtapellido;
+    }
+
+    public void setTxtcedula(JTextField txtcedula) {
+        this.txtcedula = txtcedula;
+    }
+
+    public void setTxtclave(JTextField txtclave) {
+        this.txtclave = txtclave;
+    }
+
+    public void setTxtcorreo(JTextField txtcorreo) {
+        this.txtcorreo = txtcorreo;
+    }
+
+    public void setTxtfechaingreso(JDateChooser txtfechaingreso) {
+        this.txtfechaingreso = txtfechaingreso;
+    }
+
+    public void setTxtfecharetiro(JDateChooser txtfecharetiro) {
+        this.txtfecharetiro = txtfecharetiro;
+    }
+
+    public void setTxtmodificarempleado(JButton txtmodificarempleado) {
+        this.txtmodificarempleado = txtmodificarempleado;
+    }
+
+    public void setTxtnombre(JTextField txtnombre) {
+        this.txtnombre = txtnombre;
+    }
+
+    public void setTxtsalariobruto(JTextField txtsalariobruto) {
+        this.txtsalariobruto = txtsalariobruto;
+    }
+
+    public void setTxtsalarioneto(JTextField txtsalarioneto) {
+        this.txtsalarioneto = txtsalarioneto;
+    }
+
+    public void setTxttelefono(JTextField txttelefono) {
+        this.txttelefono = txttelefono;
+    }
+
+    public void setTxttipousuario(JTextField txttipousuario) {
+        this.txttipousuario = txttipousuario;
+    }
+
+   
     /**
      * Creates new form Muebles
      */
@@ -124,13 +354,12 @@ public class Empleados extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         txtsalariobruto = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txtfechaingreso = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        txtfecharetiro = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         txtsalarioneto = new javax.swing.JTextField();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
+        txtfechaingreso = new com.toedter.calendar.JDateChooser();
+        txtfecharetiro = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(153, 153, 0));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -335,14 +564,11 @@ public class Empleados extends javax.swing.JPanel {
                             .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtsalariobruto, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(txtsalarioneto, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(txtfechaingreso, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtfecharetiro, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtsalariobruto, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
+                                    .addComponent(txtsalarioneto, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
+                                    .addComponent(txtfechaingreso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtfecharetiro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel13)))
@@ -360,9 +586,7 @@ public class Empleados extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtsalarioneto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(txtsalarioneto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel14)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -395,7 +619,7 @@ public class Empleados extends javax.swing.JPanel {
                         .addComponent(btneliminarempleado, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(50, 50, 50)
                         .addComponent(txtmodificarempleado, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         panelvendermueblesLayout.setVerticalGroup(
             panelvendermueblesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -424,7 +648,6 @@ public class Empleados extends javax.swing.JPanel {
     private javax.swing.JButton btnagregarempleado;
     private javax.swing.JButton btnconsultarempleado;
     private javax.swing.JButton btneliminarempleado;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -450,8 +673,8 @@ public class Empleados extends javax.swing.JPanel {
     private javax.swing.JTextField txtcedula;
     private javax.swing.JTextField txtclave;
     private javax.swing.JTextField txtcorreo;
-    private javax.swing.JTextField txtfechaingreso;
-    private javax.swing.JTextField txtfecharetiro;
+    private com.toedter.calendar.JDateChooser txtfechaingreso;
+    private com.toedter.calendar.JDateChooser txtfecharetiro;
     private javax.swing.JButton txtmodificarempleado;
     private javax.swing.JTextField txtnombre;
     private javax.swing.JTextField txtsalariobruto;
