@@ -1,5 +1,7 @@
 package modelo;
 
+import java.util.List;
+
 /**
  *
  * @author oscar
@@ -7,11 +9,10 @@ package modelo;
 public class PersonaContacto extends Persona{
 
     public PersonaContacto() {
-        super();
     }
 
-    public PersonaContacto(int id_pk, String nombre, String apellido, String correo, int[] telefono) {
-        super(id_pk, nombre, apellido, correo, telefono);
+    public PersonaContacto(int id_pk, String nombre, String apellido, String correo, List<Telefono> telefonos) {
+        super(id_pk, nombre, apellido, correo, telefonos);
     }
 
     @Override
